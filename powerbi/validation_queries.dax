@@ -1,0 +1,56 @@
+// Validation queries - run in Power BI Desktop > DAX query view AFTER loading the real data.
+// Expected values were calculated independently in Python from startup_funding_cleaned.csv / investor_bridge.csv.
+
+// 1) Headline numbers
+EVALUATE
+ROW (
+    "Records", [Funding Records],                              // 3,044
+    "Disclosed", [Funding Records with Disclosed Amounts],     // 2,073
+    "Missing", [Funding Amount Missing Count],                 // 971
+    "Missing %", [Funding Amount Missing %],                   // 31.9%
+    "Total USD", [Total Funding (USD)],                        // 38,143,914,864.22
+    "Average", [Average Disclosed Funding (USD)],              // 18,400,344.85
+    "Median", [Median Disclosed Funding (USD)],                // 1,750,000
+    "Largest", [Largest Single Record (USD)],                  // 3,900,000,000
+    "Avg per recorded event", [Average Funding per Recorded Event (USD)], // 12,530,852.45
+    "Total excl extreme", [Total Funding excl. Extreme Records (USD)],    // 25,378,914,864.22
+    "Extreme share", [Extreme Records Share of Funding %],     // 33.5%
+    "Unique startups", [Unique Startups],                      // 2,244
+    "Unique investors", [Unique Investors (Named)],            // 3,071
+    "Investor appearances", [Investor Appearances],            // 5,885
+    "Records with named investors", [Records with Named Investors], // 2,905
+    "Multi-investor %", [Multi-Investor Records %],            // 45.6%
+    "Top industry", [Top Industry by Funding],                 // eCommerce
+    "Top industry share", [Top Industry Share of Funding %],   // 21.7%
+    "Top city", [Top City by Funding],                         // Bengaluru
+    "Top city share", [Top City Share of Funding %],           // 49.2%
+    "Unclassified funding %", [Unclassified Industry Share of Funding %], // 22.4%
+    "Unclassified records %", [Unclassified Industry Share of Records %], // 30.4%
+    "Date rows", COUNTROWS ( Dim_Date ),                       // 2,192 (2015-01-01 to 2020-12-31)
+    "Last data date", MAX ( Fact_Funding[Funding_Date] )       // 2020-01-13
+)
+
+// 2) Year view  (expected: year | records | total USD | YoY funding | YoY records | coverage)
+//   2015 |  936 |   8,673,022,368.00 |   blank |   blank | 69.9%
+//   2016 |  993 |   3,828,088,608.00 |  -55.9% |   +6.1% | 59.0%
+//   2017 |  687 |  10,429,309,730.00 | +172.4% |  -30.8% | 66.4%
+//   2018 |  310 |   5,122,368,369.00 |  -50.9% |  -54.9% | 85.5%
+//   2019 |  111 |   9,700,918,535.22 |  +89.4% |  -64.2% | 94.6%
+//   2020 |    7 |     390,207,254.00 |   blank |   blank | 100.0%  (partial year: 1-13 Jan)
+EVALUATE
+SUMMARIZECOLUMNS (
+    Dim_Date[Year],
+    "Records", [Funding Records],
+    "Total", [Total Funding (USD)],
+    "YoY funding", [YoY Funding Growth %],
+    "YoY records", [YoY Records Growth %],
+    "Coverage", [Disclosed Amount Coverage %]
+)
+ORDER BY Dim_Date[Year]
+
+// 3) Relationship health: should return 0 rows (every fact date has a calendar row, every bridge record exists)
+EVALUATE
+ROW (
+    "Fact rows with no calendar match", COUNTROWS ( FILTER ( Fact_Funding, ISBLANK ( RELATED ( Dim_Date[Date] ) ) ) ),
+    "Bridge rows with no fact match", COUNTROWS ( FILTER ( Bridge_Investor, ISBLANK ( RELATED ( Fact_Funding[Record_ID] ) ) ) )
+)

@@ -1,0 +1,317 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "ff247f3f19fa09a45b47",
+  "position": {
+    "x": 24,
+    "y": 450,
+    "z": 9000,
+    "height": 254,
+    "width": 1232,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Startup_Name"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Startup_Name",
+              "nativeQueryRef": "Startup_Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Industry"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Industry",
+              "nativeQueryRef": "Industry"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "City"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).City",
+              "nativeQueryRef": "City"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Funding Records"
+                }
+              },
+              "queryRef": "_Measures.Funding Records",
+              "nativeQueryRef": "Funding Records"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Disclosed Funding (M)"
+                }
+              },
+              "queryRef": "_Measures.Disclosed Funding (M)",
+              "nativeQueryRef": "Disclosed Funding (M)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Disclosed Funding (M)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Leading Startups by Disclosed Funding'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "''Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ad30f13732e3b5631ca6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Startup_Name"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "edac62c3a35ad7a79a51",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Industry"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "45c9faa77c964045f4e8",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "City"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "7c9c8872cdaf53a367f3",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Funding Records"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "616ea72336e1f69873a0",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Disclosed Funding (M)"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "ff5a94eeab46eb2177f2",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Startup_Name"
+          }
+        },
+        "type": "TopN",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "subquery",
+              "Expression": {
+                "Subquery": {
+                  "Query": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "s",
+                        "Entity": "startup_funding_cleaned (2)",
+                        "Type": 0
+                      },
+                      {
+                        "Name": "_",
+                        "Entity": "_Measures",
+                        "Type": 0
+                      }
+                    ],
+                    "Select": [
+                      {
+                        "Column": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "s"
+                            }
+                          },
+                          "Property": "Startup_Name"
+                        },
+                        "Name": "field"
+                      }
+                    ],
+                    "OrderBy": [
+                      {
+                        "Direction": 2,
+                        "Expression": {
+                          "Measure": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "_"
+                              }
+                            },
+                            "Property": "Total Disclosed Funding"
+                          }
+                        }
+                      }
+                    ],
+                    "Top": 25
+                  }
+                }
+              },
+              "Type": 2
+            },
+            {
+              "Name": "s",
+              "Entity": "startup_funding_cleaned (2)",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "s"
+                          }
+                        },
+                        "Property": "Startup_Name"
+                      }
+                    }
+                  ],
+                  "Table": {
+                    "SourceRef": {
+                      "Source": "subquery"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

@@ -1,0 +1,998 @@
+﻿Column,Raw_Value,Clean_Value,Records
+City,Bangalore,Bengaluru,700
+City,Mumbai,Mumbai,567
+City,New Delhi,New Delhi,421
+City,Gurgaon,Gurugram,287
+City,nan,Unknown,171
+City,Bengaluru,Bengaluru,141
+City,Pune,Pune,105
+City,Hyderabad,Hyderabad,99
+City,Chennai,Chennai,97
+City,Noida,Noida,92
+City,Gurugram,Gurugram,50
+City,Ahmedabad,Ahmedabad,38
+City,Delhi,Delhi,34
+City,Jaipur,Jaipur,30
+City,Kolkata,Kolkata,21
+City,Indore,Indore,13
+City,Chandigarh,Chandigarh,11
+City,Goa,Goa,10
+City,Vadodara,Vadodara,10
+City,Singapore,Singapore,8
+City,,Unknown,6
+City,Coimbatore,Coimbatore,5
+City,Kanpur,Kanpur,4
+City,Pune / US,Multiple locations,4
+City,\\xc2\\xa0Gurgaon,Gurugram,4
+City,Bhopal,Bhopal,3
+City,Faridabad,Faridabad,3
+City,N/A,Unknown,3
+City,Nagpur,Nagpur,3
+City,\\xc2\\xa0New Delhi,New Delhi,3
+City,Agra,Agra,2
+City,Ahemadabad,Ahmedabad,2
+City,Bangalore / SFO,Multiple locations,2
+City,Bangalore/ Bangkok,Multiple locations,2
+City,Gwalior,Gwalior,2
+City,India/US,Multiple locations,2
+City,Kochi,Kochi,2
+City,Kormangala,Bengaluru,2
+City,Mumbai/Bengaluru,Multiple locations,2
+City,New Delhi / US,Multiple locations,2
+City,San Francisco,San Francisco,2
+City,Siliguri,Siliguri,2
+City,Surat,Surat,2
+City,Trivandrum,Trivandrum,2
+City,Udaipur,Udaipur,2
+City,Udupi,Udupi,2
+City,Ahemdabad,Ahmedabad,1
+City,Amritsar,Amritsar,1
+City,Andheri,Mumbai,1
+City,Bangalore / Palo Alto,Multiple locations,1
+City,Bangalore / San Mateo,Multiple locations,1
+City,Bangalore / USA,Multiple locations,1
+City,Belgaum,Belgaum,1
+City,Bengaluru and Gurugram,Multiple locations,1
+City,Bhubaneswar,Bhubaneswar,1
+City,Bhubneswar,Bhubaneswar,1
+City,Boston,Boston,1
+City,Burnsville,Burnsville,1
+City,California,Region/country only,1
+City,Chembur,Mumbai,1
+City,Chennai/ Singapore,Multiple locations,1
+City,Dallas / Hyderabad,Multiple locations,1
+City,Delhi & Cambridge,Multiple locations,1
+City,Gaya,Gaya,1
+City,Goa/Hyderabad,Multiple locations,1
+City,Gurgaon / SFO,Multiple locations,1
+City,Haryana,Region/country only,1
+City,Hubli,Hubli,1
+City,Hyderabad/USA,Multiple locations,1
+City,India,Region/country only,1
+City,India / US,Multiple locations,1
+City,India/Singapore,Multiple locations,1
+City,Jodhpur,Jodhpur,1
+City,Karnataka,Region/country only,1
+City,Karur,Karur,1
+City,Kerala,Region/country only,1
+City,Kolkatta,Kolkata,1
+City,Kozhikode,Kozhikode,1
+City,London,London,1
+City,Lucknow,Lucknow,1
+City,Menlo Park,Menlo Park,1
+City,Missourie,Region/country only,1
+City,Mumbai / Global,Multiple locations,1
+City,Mumbai / NY,Multiple locations,1
+City,Mumbai / UK,Multiple locations,1
+City,Nairobi,Nairobi,1
+City,New Delhi / California,Multiple locations,1
+City,New Delhi/ Houston,Multiple locations,1
+City,New York,New York,1
+City,"New York, Bengaluru",Multiple locations,1
+City,New York/ India,Multiple locations,1
+City,Noida / Singapore,Multiple locations,1
+City,Nw Delhi,New Delhi,1
+City,Palo Alto,Palo Alto,1
+City,Panaji,Panaji,1
+City,Pune / Dubai,Multiple locations,1
+City,Pune / Singapore,Multiple locations,1
+City,Pune/Seattle,Multiple locations,1
+City,Rourkela,Rourkela,1
+City,SFO / Bangalore,Multiple locations,1
+City,"San Jose,",San Jose,1
+City,Santa Monica,Santa Monica,1
+City,Seattle / Bangalore,Multiple locations,1
+City,Srinagar,Srinagar,1
+City,Taramani,Chennai,1
+City,Tulangan,Tulangan,1
+City,US,Region/country only,1
+City,US/India,Multiple locations,1
+City,USA,Region/country only,1
+City,USA/India,Multiple locations,1
+City,Uttar Pradesh,Region/country only,1
+City,Varanasi,Varanasi,1
+City,\\xc2\\xa0Bangalore,Bengaluru,1
+City,\\xc2\\xa0Mumbai,Mumbai,1
+City,\\xc2\\xa0Noida,Noida,1
+Industry,Consumer Internet,Consumer Internet,941
+Industry,Technology,Technology,478
+Industry,eCommerce,eCommerce,186
+Industry,nan,Unclassified,171
+Industry,Healthcare,Healthcare,70
+Industry,Finance,Finance,62
+Industry,ECommerce,eCommerce,61
+Industry,Logistics,Logistics,32
+Industry,E-Commerce,eCommerce,29
+Industry,Education,Education,24
+Industry,Food & Beverage,Food & Beverage,23
+Industry,Ed-Tech,EdTech,14
+Industry,E-commerce,eCommerce,12
+Industry,FinTech,FinTech,9
+Industry,Ecommerce,eCommerce,8
+Industry,IT,Information Technology,8
+Industry,Fin-Tech,FinTech,6
+Industry,Food and Beverage,Food & Beverage,6
+Industry,Others,Unclassified,6
+Industry,Real Estate,Real Estate,6
+Industry,Health and Wellness,Health and Wellness,5
+Industry,Logistics Tech,Logistics Tech,5
+Industry,Online Education Platform,Online Education Platform,5
+Industry,Online Food Delivery,Online Food Delivery,5
+Industry,Transport,Transportation,4
+Industry,Transportation,Transportation,4
+Industry,Automobile,Automobile,3
+Industry,Big Data & Analytics platform,Unclassified,3
+Industry,EdTech,EdTech,3
+Industry,FMCG,FMCG,3
+Industry,Food,Food,3
+Industry,Food & Beverages,Food & Beverage,3
+Industry,Food Delivery Platform,Unclassified,3
+Industry,Food and Beverages,Food & Beverage,3
+Industry,Hyperlocal Handyman Services,Unclassified,3
+Industry,Information Technology,Information Technology,3
+Industry,SaaS,SaaS,3
+Industry,Services,Services,3
+Industry,Social Media,Social Media,3
+Industry,ecommerce,eCommerce,3
+Industry,Agriculture,Agriculture,2
+Industry,Auto,Auto,2
+Industry,B2B,B2B,2
+Industry,Cab rental Mobile app,Unclassified,2
+Industry,Car & Bike ecommerce platform,Unclassified,2
+Industry,Consumer Goods,Consumer Goods,2
+Industry,Customer Engagement Platform,Unclassified,2
+Industry,Digital / Mobile Wallet,Unclassified,2
+Industry,Digital Media,Digital Media,2
+Industry,Edtech,EdTech,2
+Industry,Fashion Discovery platform,Unclassified,2
+Industry,Gaming,Gaming,2
+Industry,Health & Fitness App,Unclassified,2
+Industry,Health Care,Healthcare,2
+Industry,Health-Tech platform,Unclassified,2
+Industry,Home services marketplace,Unclassified,2
+Industry,Hospitality,Hospitality,2
+Industry,Hyper-Local Online/Mobile Grocery,Unclassified,2
+Industry,Hyperlocal services marketplace,Unclassified,2
+Industry,Inspiration,Inspiration,2
+Industry,Interface development platform for Government officials,Unclassified,2
+Industry,Internet of Things platform,Unclassified,2
+Industry,Job Search Platform,Unclassified,2
+Industry,Last Mile Transportation,Last Mile Transportation,2
+Industry,Logistics Tech Platform,Unclassified,2
+Industry,Mobile Fitness App,Unclassified,2
+Industry,Online Grocery platform,Unclassified,2
+Industry,Online Hiring Platform,Unclassified,2
+Industry,Online Logistics Platform,Unclassified,2
+Industry,Online Payment Gateway,Unclassified,2
+Industry,Online budget hotel chain,Unclassified,2
+Industry,Online food ordering & Delivery service,Unclassified,2
+Industry,Software,Software,2
+Industry,Tech,Tech,2
+Industry,Two-Wheeler Taxi Service,Unclassified,2
+Industry,Used Car Marketplace,Unclassified,2
+Industry,Waste Management Service,Waste Management Service,2
+Industry,360-degree view creating platform,Unclassified,1
+Industry,3D Printer Manufacturer,Unclassified,1
+Industry,AI,AI,1
+Industry,API Workflow platform,Unclassified,1
+Industry,Accounting,Accounting,1
+Industry,Activity Based Social Network,Unclassified,1
+Industry,Advertising & Marketing Community Networking platform,Unclassified,1
+Industry,"Advertising, Marketing","Advertising, Marketing",1
+Industry,Aerospace,Aerospace,1
+Industry,Affordable Education,Unclassified,1
+Industry,Affordable Hotel Booking Online,Unclassified,1
+Industry,Agtech,Agtech,1
+Industry,Algorithmic Match Making Platform,Unclassified,1
+Industry,Alternate Mobile Monetization platform,Unclassified,1
+Industry,App Analytics platform,Unclassified,1
+Industry,App based Bus Pooling Services,Unclassified,1
+Industry,App based Fitness coaching,Unclassified,1
+Industry,App security\\xc2\\xa0 testing platform,Unclassified,1
+Industry,Architectural Design & Consulting,Unclassified,1
+Industry,Artificial Intelligence,Artificial Intelligence,1
+Industry,Artificial Intelligence Ecommerce Chatbot,Unclassified,1
+Industry,Artificial Intelligence platform,Unclassified,1
+Industry,Artist / Designer Marketplace,Unclassified,1
+Industry,Asset Financing platform,Unclassified,1
+Industry,Auto Insurance Online platform,Unclassified,1
+Industry,Auto Rickshaw Based Services,Unclassified,1
+Industry,Auto Rickshaw based Logistics,Unclassified,1
+Industry,Automated Storage & Warehousing Solution,Unclassified,1
+Industry,Automation,Automation,1
+Industry,Automotive,Automotive,1
+Industry,Automotive Services platform,Unclassified,1
+Industry,Autorickshaw Aggregator & Booking platform,Unclassified,1
+Industry,B2B Marketing,B2B Marketing,1
+Industry,B2B Merchandize platform,Unclassified,1
+Industry,B2B Mobile Auction Marketplace,Unclassified,1
+Industry,B2B Platform,B2B Platform,1
+Industry,B2B eCommerce Marketplace,Unclassified,1
+Industry,B2B logistics delivery platform,Unclassified,1
+Industry,B2B marketplace for industrial goods,Unclassified,1
+Industry,B2B-focused foodtech startup,B2B-focused foodtech startup,1
+Industry,B2C Messaging App,Unclassified,1
+Industry,BFSI,BFSI,1
+Industry,Banking Analytics Platform,Unclassified,1
+Industry,Beauty & Lifestyle Mobile Marketplace,Unclassified,1
+Industry,Beauty & Lifestyle platform,Unclassified,1
+Industry,Beauty & Wellness Mobile App,Unclassified,1
+Industry,Beauty & Wellness Products e-tailer,Unclassified,1
+Industry,Beauty & Wellness Services Marketplace,Unclassified,1
+Industry,Beauty and Wellness Marketplace,Unclassified,1
+Industry,Beauty and Wellness Platform,Unclassified,1
+Industry,Beauty and Wellness platform,Unclassified,1
+Industry,Beauty services Mobile Marketplace,Unclassified,1
+Industry,Bespoke Merchandize Marketplace,Unclassified,1
+Industry,Big Data & Analytics Services,Unclassified,1
+Industry,Big Data & predictive Analysis Platform,Unclassified,1
+Industry,Big Data Analytics Platform,Unclassified,1
+Industry,Big Data Management Platform,Unclassified,1
+Industry,Bike Rental Platform,Unclassified,1
+Industry,"Bike, Appliances Renting marketplace",Unclassified,1
+Industry,Brain Games Platform,Unclassified,1
+Industry,Brand Licensing Startup,Unclassified,1
+Industry,Branded Budget Hotel Marketplace,Unclassified,1
+Industry,Branded Food products online sales,Unclassified,1
+Industry,Budget Accommodation Platform,Unclassified,1
+Industry,Budget Accommodation aggregator,Unclassified,1
+Industry,Budget Hotel Accommodation,Unclassified,1
+Industry,Budget Hotel accommodation brand,Unclassified,1
+Industry,Budget Hotels Aggregator,Unclassified,1
+Industry,Bus Aggregation and rental mobile app,Unclassified,1
+Industry,Business IT Intelligence Services,Unclassified,1
+Industry,Business Messaging App,Unclassified,1
+Industry,Business and IT consulting,Unclassified,1
+Industry,Business intelligence & Analytics,Unclassified,1
+Industry,CRM / Analytics platform,Unclassified,1
+Industry,Cab Aggregator,Unclassified,1
+Industry,Cab Booking app platform,Unclassified,1
+Industry,Cab Sharing service Mobile app,Unclassified,1
+Industry,Cab search Comparison & Booking platform,Unclassified,1
+Industry,Car Aggregator & Retail Mobile App,Unclassified,1
+Industry,Car Maintenance & Management mobile app,Unclassified,1
+Industry,Career Community for Women,Unclassified,1
+Industry,Career Development,Unclassified,1
+Industry,Casual Dating App,Unclassified,1
+Industry,Celebrity Fashion Brand,Unclassified,1
+Industry,Chain of Tea Caf\\xc3\\xa9\\xe2\\x80\\x99s,Unclassified,1
+Industry,Chat based personal Assistant App,Unclassified,1
+Industry,Chinese food delivery,Unclassified,1
+Industry,Citizens Engagement Platform,Unclassified,1
+Industry,Clean Tech,Unclassified,1
+Industry,Clean-tech,Clean-tech,1
+Industry,Clinical Genomics Provider,Unclassified,1
+Industry,Cloud Based Collaboration platform,Unclassified,1
+Industry,Cloud Based Hotel Sales Platform,Unclassified,1
+Industry,Cloud Data Integration Platform,Unclassified,1
+Industry,Cloud Enterprise Mobility Platform,Unclassified,1
+Industry,Cloud Enterprise Software,Unclassified,1
+Industry,Cloud software solutions,Unclassified,1
+Industry,Cloud-based Hotel Booking Platform,Unclassified,1
+Industry,Clud based Learning platform,Unclassified,1
+Industry,Community Driven News/Views Platform,Unclassified,1
+Industry,Competitive exam learning platform,Unclassified,1
+Industry,Compliance,Compliance,1
+Industry,Consumer Interne,Consumer Internet,1
+Industry,Consumer Portal,Consumer Portal,1
+Industry,Consumer Technology,Consumer Technology,1
+Industry,Consumer internet,Consumer Internet,1
+Industry,Consumer lending marketplace,Unclassified,1
+Industry,Content Discovery & reward points platform,Unclassified,1
+Industry,Content Management Software Solutions,Unclassified,1
+Industry,Content-based Subscription eCommerce platform,Unclassified,1
+Industry,Corporate Wellness App,Unclassified,1
+Industry,Coupon Aggregator Platform,Unclassified,1
+Industry,Credit Card Fraud protection solutions,Unclassified,1
+Industry,Credit Management Services,Unclassified,1
+Industry,Cricket Management Mobile Game,Unclassified,1
+Industry,Cross-channel CRM platform,Unclassified,1
+Industry,Cross-device retargeting platform,Unclassified,1
+Industry,Crowd Funding Platform,Unclassified,1
+Industry,Crowd funding platform,Unclassified,1
+Industry,Crowdsourced Delivery platform,Unclassified,1
+Industry,Curated Freelancer Marketplace,Unclassified,1
+Industry,Custom Furniture Marketplace,Unclassified,1
+Industry,Custom Made furniture e-tailer,Unclassified,1
+Industry,Custom Merchandize platform,Unclassified,1
+Industry,Customer Service,Customer Service,1
+Industry,Customer Service Platform,Customer Service Platform,1
+Industry,Dairy Based Product Manufacturer,Unclassified,1
+Industry,Data Analytics Platform,Unclassified,1
+Industry,Data Center Software platform,Unclassified,1
+Industry,Data Driven Publishing platform,Unclassified,1
+Industry,Data Driven recruitment recommendation,Unclassified,1
+Industry,Data Science & UX design Learning platform,Unclassified,1
+Industry,Deep Learning Cloud Algorithms,Unclassified,1
+Industry,Deep-Tech,Deep-Tech,1
+Industry,Delivery & Logistics Service provider,Unclassified,1
+Industry,Dental Clinic chain,Unclassified,1
+Industry,Designer Merchandize Marketplace,Unclassified,1
+Industry,Designer fashion Jewellery Marketplace,Unclassified,1
+Industry,Developer Portfolio Showcase platform,Unclassified,1
+Industry,Device Repair Svcs,Unclassified,1
+Industry,Diagnostic Labs aggregator platform,Unclassified,1
+Industry,Digital & Physical Publishing platform,Unclassified,1
+Industry,Digital Analytics Platform,Unclassified,1
+Industry,"Digital Coupons, Deal & Cashback aggregator app",Unclassified,1
+Industry,Digital Healthcare,Unclassified,1
+Industry,Digital Intelligent learning platform,Unclassified,1
+Industry,Digital Marketing Services,Unclassified,1
+Industry,Digital Marketing automation solution,Unclassified,1
+Industry,Digital Media Platform,Unclassified,1
+Industry,Digital Media publishing platform,Unclassified,1
+Industry,Digital Signal processing platform,Unclassified,1
+Industry,Doctor Appointment booking app,Unclassified,1
+Industry,Doctor consultancy Mobile App,Unclassified,1
+Industry,Doctors Network Mobile App,Unclassified,1
+Industry,Document Digitization platform,Unclassified,1
+Industry,Domestic Help Aggregation platform,Unclassified,1
+Industry,E-Commerce & M-Commerce platform,Unclassified,1
+Industry,E-Learning Service Provider,Unclassified,1
+Industry,E-Tech,E-Tech,1
+Industry,ECommerce Brands\\xe2\\x80\\x99 Full Service Agency,Unclassified,1
+Industry,ECommerce Data Analytics Platform,Unclassified,1
+Industry,ECommerce Logistics provider,Unclassified,1
+Industry,ECommerce Website Creation SAAS platform,Unclassified,1
+Industry,ECommerce platform solutions,Unclassified,1
+Industry,Early Cancer Detection Solutions,Unclassified,1
+Industry,Easy Business Loans platform,Unclassified,1
+Industry,Ecommerce Delivery locker services,Unclassified,1
+Industry,Ecommerce Discount & Cashback coupons platform,Unclassified,1
+Industry,Ecommerce Logistics,Unclassified,1
+Industry,Ecommerce Marketing Software Platform,Unclassified,1
+Industry,Ecommerce Marketplace,Unclassified,1
+Industry,Ecommerce Product recommendation platform,Unclassified,1
+Industry,Ed-Tech Platform,Unclassified,1
+Industry,Ed-tech,EdTech,1
+Industry,Education Content Provider,Unclassified,1
+Industry,Education Content etailer,Unclassified,1
+Industry,Education Marketplace,Unclassified,1
+Industry,Educational Board Games,Unclassified,1
+Industry,Efficient Energy Management platform,Unclassified,1
+Industry,Electric Bike Manufacturers,Unclassified,1
+Industry,Electric Scooter Manufacturer,Unclassified,1
+Industry,Electric Scooter manufacturer,Unclassified,1
+Industry,Electronic Goods recycling service,Unclassified,1
+Industry,Employee OnBoarding & Orientation platform,Unclassified,1
+Industry,End to End reverse logistics Solution platform,Unclassified,1
+Industry,End-to-End Lending platform,Unclassified,1
+Industry,End-to-end Logistics platform,Unclassified,1
+Industry,Energy,Energy,1
+Industry,Energy & Environment Online Marketplace,Unclassified,1
+Industry,Energy saving solutions provider,Unclassified,1
+Industry,Engineering Innovations,Unclassified,1
+Industry,Enterprise Communication Platform,Unclassified,1
+Industry,Enterprise Marketing Automation platform,Unclassified,1
+Industry,Entertainment,Entertainment,1
+Industry,Ethnic Beverages manufacturer,Unclassified,1
+Industry,Ethnic Product eCommerce,Unclassified,1
+Industry,Ethnic/ Traditional Fashion Store,Unclassified,1
+Industry,Event Ticketing platform,Unclassified,1
+Industry,Event Venue Booking Platform,Unclassified,1
+Industry,Exam Preparation Platform,Unclassified,1
+Industry,Exclusive Platform for Doctors & Healthcare professionals,Unclassified,1
+Industry,Express local delivery platform,Unclassified,1
+Industry,F&B sector Mobile Payment platform,Unclassified,1
+Industry,Fashion,Fashion,1
+Industry,Fashion ECommerce,Unclassified,1
+Industry,Fashion Ecommerce store,Unclassified,1
+Industry,Fashion Search & Review Platform,Unclassified,1
+Industry,Fashion and Apparel,Fashion and Apparel,1
+Industry,Fashion jewelry and accessories e-tailer,Unclassified,1
+Industry,Fast food Chain Franchisee,Unclassified,1
+Industry,Fiinance,Fiinance,1
+Industry,FinTech Startup Incubation platform,Unclassified,1
+Industry,Financial Inclusion platform,Unclassified,1
+Industry,Financial Markets Software,Unclassified,1
+Industry,Financial Products lead generation platform,Unclassified,1
+Industry,Financial Services Platform,Unclassified,1
+Industry,Financial Services Portal,Unclassified,1
+Industry,Financial Tech,FinTech,1
+Industry,Financial Tech,Unclassified,1
+Industry,Fine Dining Restaurant Chain,Unclassified,1
+Industry,Fintech,FinTech,1
+Industry,Fitness Marketplace,Unclassified,1
+Industry,Fitness Tracking Management Solutions,Unclassified,1
+Industry,Flat rental Mobile App,Unclassified,1
+Industry,Food Customer analytics platform,Unclassified,1
+Industry,Food Delivery platform,Unclassified,1
+Industry,Food Discovery & Delivery Mobile app,Unclassified,1
+Industry,Food Discovery App,Unclassified,1
+Industry,Food Logistics & Delivery,Unclassified,1
+Industry,Food Ordering & Delivery App,Unclassified,1
+Industry,Food Subscription platform,Unclassified,1
+Industry,Food Tech,Food Tech,1
+Industry,Food discovery & table booking app,Unclassified,1
+Industry,Food-Tech,Food Tech,1
+Industry,Freight logistics platform,Unclassified,1
+Industry,Fund Raising Platform,Unclassified,1
+Industry,Furniture and appliances rental platform,Unclassified,1
+Industry,Gesture based Mobile Development,Unclassified,1
+Industry,Global Healthcare products,Unclassified,1
+Industry,Gourmet Food Discovery & Delivery platform,Unclassified,1
+Industry,Gourmet Meals Delivery,Unclassified,1
+Industry,Government Test Preparation platform,Unclassified,1
+Industry,Grey collar Job Board,Unclassified,1
+Industry,Grocery Delivery platform,Unclassified,1
+Industry,Grocery retail Mobile app,Unclassified,1
+Industry,Gym & Fitness Studios Subscription platform,Unclassified,1
+Industry,Gym Discovery platform,Unclassified,1
+Industry,Hasbro Toy Manufacturer,Unclassified,1
+Industry,Health Mobile App,Unclassified,1
+Industry,Health and Beauty Services Marketplace,Unclassified,1
+Industry,Health and wellness,Health and Wellness,1
+Industry,"Health, Wellness & Beauty Services App",Unclassified,1
+Industry,Healthcare Consulting platform,Unclassified,1
+Industry,Healthcare IT Solutions & services,Unclassified,1
+Industry,Healthcare Mobile App,Unclassified,1
+Industry,Healthcare Services Discovery platform,Unclassified,1
+Industry,Healthcare\\nService provider,Unclassified,1
+Industry,Healthy Food Manufacturer,Unclassified,1
+Industry,Healthy Food Online Community,Unclassified,1
+Industry,Healthy Meals Food delivery platform,Unclassified,1
+Industry,Hiring Analytics platform,Unclassified,1
+Industry,Holiday Resort Chain,Unclassified,1
+Industry,Home Cooked Food Order & Delivery platform,Unclassified,1
+Industry,Home Cooked Food marketplace & Delivery,Unclassified,1
+Industry,Home Design & D\\xc3\\xa9cor platform,Unclassified,1
+Industry,Home Design & D\\xc3\\xa9cor solutions,Unclassified,1
+Industry,Home Fitting & Fixtures Marketplace,Unclassified,1
+Industry,Home Furnishing Solutions,Unclassified,1
+Industry,"Home Healthcare Services platform,",Unclassified,1
+Industry,Home Improvement Service platform,Unclassified,1
+Industry,Home Made Food Marketplace,Unclassified,1
+Industry,Home Medical Care Services,Unclassified,1
+Industry,Home Stay & room rentals platform,Unclassified,1
+Industry,Home rental platform,Unclassified,1
+Industry,Hotel Aggregator & booking platform,Unclassified,1
+Industry,Hotel Mobile CRM Software platform,Unclassified,1
+Industry,Hyper local logistics platform,Unclassified,1
+Industry,Hyper-Local Ecommerce,Unclassified,1
+Industry,Hyper-local Grocery Delivery platform,Unclassified,1
+Industry,Hyper-local Online Services,Unclassified,1
+Industry,Hyperlocal Deals Marketplace,Unclassified,1
+Industry,Hyperlocal Delivery Platform,Unclassified,1
+Industry,Hyperlocal Delivery Services,Unclassified,1
+Industry,Hyperlocal Electronics repair Service,Unclassified,1
+Industry,Hyperlocal Goods marketplace,Unclassified,1
+Industry,Hyperlocal Grocery App,Unclassified,1
+Industry,Hyperlocal Grocery Delivery,Unclassified,1
+Industry,Hyperlocal Handyman services,Unclassified,1
+Industry,Hyperlocal Logistics Service,Unclassified,1
+Industry,Hyperlocal Logistics Service Provider,Unclassified,1
+Industry,"Hyperlocal Maintenance, Repair & Cleaning services",Unclassified,1
+Industry,Hyperlocal Mobile Marketplace,Unclassified,1
+Industry,Hyperlocal Mobile Services Marketplace,Unclassified,1
+Industry,Hyperlocal On-Demand Household Services platform,Unclassified,1
+Industry,Hyperlocal Online Home services provider,Unclassified,1
+Industry,Hyperlocal Shopping App,Unclassified,1
+Industry,Hyperlocal food & grocery store,Unclassified,1
+Industry,Hyperlocal grocery delivery,Unclassified,1
+Industry,Hyperlocal healthcare product Delivery Service provider,Unclassified,1
+Industry,Hyperlocal\\xc2\\xa0 Grocery Delivery Service,Unclassified,1
+Industry,IOT Energy Management Analytics platform,Unclassified,1
+Industry,IT / Customer Engagement Consulting,Unclassified,1
+Industry,IT infrastructure & Data Center services,Unclassified,1
+Industry,Indian Ethnic Crafts Etailer,Unclassified,1
+Industry,Indoor Navigation & Analytics Solutions,Unclassified,1
+Industry,Industrial Supplies B2B ecommerce,Unclassified,1
+Industry,Industrial Tools Marketplace,Unclassified,1
+Industry,Industrial Toons Marketplace,Unclassified,1
+Industry,Innovative Water Solutions,Unclassified,1
+Industry,Intelligent Data Analytics,Unclassified,1
+Industry,Interactive Educational Games,Unclassified,1
+Industry,Interactive\\xc2\\xa0 How-To Guides,Unclassified,1
+Industry,International Hiring Platform,Unclassified,1
+Industry,Internet Network Infrastructure Services,Unclassified,1
+Industry,Intra-City Logistics service,Unclassified,1
+Industry,Investment,Investment,1
+Industry,Investment management platform,Unclassified,1
+Industry,IoT,IoT,1
+Industry,Job Board,Unclassified,1
+Industry,Kids Tool kit for Innovation platform,Unclassified,1
+Industry,Language Learning App,Unclassified,1
+Industry,Language Localization Cloud platform,Unclassified,1
+Industry,Last Mile Delivery Service,Unclassified,1
+Industry,Last Mile Logistics,Unclassified,1
+Industry,Last Minute Hotel Booking App,Unclassified,1
+Industry,Last Minute Travel Deals mobile marketplace,Unclassified,1
+Industry,Lifestyle,Lifestyle,1
+Industry,Lifestyle Ecommerce Portal,Unclassified,1
+Industry,Live video streaming app,Unclassified,1
+Industry,Local Mobile OS,Unclassified,1
+Industry,Location Based App,Unclassified,1
+Industry,Location based Nightlife recommendation\\xc2\\xa0 Platform,Unclassified,1
+Industry,Location based engagement & rewards platform,Unclassified,1
+Industry,Logistics Automation Platform,Unclassified,1
+Industry,Logistics Intelligence,Unclassified,1
+Industry,Logistics Service Provider Marketplace,Unclassified,1
+Industry,Logistics Services Provider,Unclassified,1
+Industry,Logistics Solution Provider,Unclassified,1
+Industry,Logistics service platform,Unclassified,1
+Industry,Loyalty Programs & Reward Points,Unclassified,1
+Industry,Luxury Apparel rental,Unclassified,1
+Industry,Luxury Label,Luxury Label,1
+Industry,Luxury Rental Homes,Unclassified,1
+Industry,Luxury goods\\xc2\\xa0 Shopping Platform,Unclassified,1
+Industry,Machine Learning Platform,Unclassified,1
+Industry,Marketing / Advertising Automation platform,Unclassified,1
+Industry,Marketplace App for Bangkok,Unclassified,1
+Industry,Material Collection & Recycling,Unclassified,1
+Industry,Media,Media,1
+Industry,Medical Consultation & Doctor appointment booking platform,Unclassified,1
+Industry,Medical Tech Instruments,Unclassified,1
+Industry,Micro Finance Platform,Unclassified,1
+Industry,Micro-Brewery,Unclassified,1
+Industry,Mobile Advertising platform,Unclassified,1
+Industry,Mobile App Development,Unclassified,1
+Industry,Mobile App based Loan disbursement platform,Unclassified,1
+Industry,Mobile App testing platform,Unclassified,1
+Industry,Mobile Application Developer,Unclassified,1
+Industry,Mobile Car Servicing appointment app,Unclassified,1
+Industry,Mobile Chat based concierge service,Unclassified,1
+Industry,Mobile Commerce Platform,Unclassified,1
+Industry,Mobile Commerce for Farmers,Unclassified,1
+Industry,Mobile Compression Software,Unclassified,1
+Industry,Mobile Fitness Marketplace,Unclassified,1
+Industry,Mobile Food Ordering app,Unclassified,1
+Industry,Mobile Game development & Design platform,Unclassified,1
+Industry,Mobile Growth Hacking\\nPlatform,Unclassified,1
+Industry,Mobile Health Tech,Unclassified,1
+Industry,Mobile Laundry Cleaning Service,Unclassified,1
+Industry,Mobile Learning Solutions,Unclassified,1
+Industry,Mobile Marketing Automation Platform,Unclassified,1
+Industry,Mobile Messaging Assistant App,Unclassified,1
+Industry,Mobile Only Shopping Assistant,Unclassified,1
+Industry,Mobile Payments App,Unclassified,1
+Industry,Mobile Point of Sale payment solution,Unclassified,1
+Industry,Mobile Point of Sale solutions,Unclassified,1
+Industry,Mobile Services Marketplace,Unclassified,1
+Industry,Mobile Wallet,Unclassified,1
+Industry,Mobile accessories online store,Unclassified,1
+Industry,Mobile based PoS solution,Unclassified,1
+Industry,Modular Furnishings Marketplace,Unclassified,1
+Industry,Movie-on-demand platform,Unclassified,1
+Industry,Multilingual Test Preparation Platform,Unclassified,1
+Industry,Music Streaming App,Unclassified,1
+Industry,Music Streaming mobile app,Unclassified,1
+Industry,Mutual Fund Investing platform,Unclassified,1
+Industry,NBFC,NBFC,1
+Industry,Nanotechnology,Nanotechnology,1
+Industry,New Curation Mobile App,Unclassified,1
+Industry,Nightlife Discovery Mobile App,Unclassified,1
+Industry,Non Profit Organization to alleviate poverty,Unclassified,1
+Industry,Nonbanking finance company,Unclassified,1
+Industry,Numerical Computing & Data Science Platform,Unclassified,1
+Industry,Off-grid Solar Power,Unclassified,1
+Industry,Offline Tea Chain,Unclassified,1
+Industry,On Demand Beauty Services Platform,Unclassified,1
+Industry,On Demand Laundry Service platform,Unclassified,1
+Industry,On Demand Laundry Services App,Unclassified,1
+Industry,On Demand Mobile app developer,Unclassified,1
+Industry,On demand cleaning & fixing services,Unclassified,1
+Industry,On-Demand App based Professional service provider,Unclassified,1
+Industry,On-Demand Beauty Service,Unclassified,1
+Industry,On-Demand Beauty Services,Unclassified,1
+Industry,On-Demand Business messaging,Unclassified,1
+Industry,On-Demand Car services App,Unclassified,1
+Industry,On-Demand Delivery Logistics,Unclassified,1
+Industry,On-Demand Handyman Services,Unclassified,1
+Industry,On-Demand Laundry & Dry cleaning App,Unclassified,1
+Industry,On-Demand Local Logistics provider,Unclassified,1
+Industry,On-Demand Logistics Service,Unclassified,1
+Industry,On-demand Maids Service Provider,Unclassified,1
+Industry,On-demand Service marketplace,Unclassified,1
+Industry,OnDemand\\nMobile Handyman Services,Unclassified,1
+Industry,Online & Mobile classified listings,Unclassified,1
+Industry,Online & mobile Grocery store,Unclassified,1
+Industry,Online / Mobile Customer Support,Unclassified,1
+Industry,Online Apparels Fashion brand,Unclassified,1
+Industry,Online Art Marketplace,Unclassified,1
+Industry,Online Branded Furniture etailer,Unclassified,1
+Industry,Online Budget Hotel Booking Service,Unclassified,1
+Industry,Online Bus & Cab ticketing platform,Unclassified,1
+Industry,Online Car Portal,Unclassified,1
+Industry,Online Car Rental Affiliates,Unclassified,1
+Industry,Online Certification Courses,Unclassified,1
+Industry,Online City & Lifestyle Guide,Unclassified,1
+Industry,Online Classifieds,Unclassified,1
+Industry,Online Classifieds & Listings,Unclassified,1
+Industry,Online Coffee Delivery platform,Unclassified,1
+Industry,Online Consumer Lending platform,Unclassified,1
+Industry,Online Counselling and psychological support platform,Unclassified,1
+Industry,Online Coupon & comparison platform,Unclassified,1
+Industry,Online Curated Holiday package bookings,Unclassified,1
+Industry,Online Diagnostic Tests Marketplace,Unclassified,1
+Industry,Online Ed-Tech Platform,Unclassified,1
+Industry,Online Education,Online Education,1
+Industry,Online Education Information platform,Unclassified,1
+Industry,Online Education Marketplace,Unclassified,1
+Industry,Online Fashion Aggregator,Unclassified,1
+Industry,Online Fashion Video Portal,Unclassified,1
+Industry,Online Finance lending platform,Unclassified,1
+Industry,Online Financial Services,Unclassified,1
+Industry,Online Food Community Platform,Unclassified,1
+Industry,Online Food Ordering,Unclassified,1
+Industry,Online Food Ordering & Delivery platform,Unclassified,1
+Industry,Online Food Ordering Marketplace,Unclassified,1
+Industry,Online Food ordering & Delivery platform,Unclassified,1
+Industry,Online Food ordering & delivery,Unclassified,1
+Industry,Online Food-Tech Platform,Unclassified,1
+Industry,Online Freight Services Aggregator,Unclassified,1
+Industry,Online Furnishing\\neCommerce,Unclassified,1
+Industry,Online Furniture Marketplace,Unclassified,1
+Industry,Online Furniture ecommerce,Unclassified,1
+Industry,"Online Furniture, Home Appliances Rental Platform",Unclassified,1
+Industry,Online Gourmet Food Marketplace,Unclassified,1
+Industry,Online Grocer,Unclassified,1
+Industry,Online Grocers,Unclassified,1
+Industry,Online Grocery Store,Unclassified,1
+Industry,Online Health & Wellness platform,Unclassified,1
+Industry,Online Home D\\xc3\\xa9cor,Unclassified,1
+Industry,Online Homeopathy Clinic,Unclassified,1
+Industry,Online Hotel Booking,Unclassified,1
+Industry,Online Identity Verification Services platform,Unclassified,1
+Industry,Online Income Tax Filing platform,Unclassified,1
+Industry,Online Insurance Aggregator,Unclassified,1
+Industry,Online Insurance Distribution Platform,Unclassified,1
+Industry,Online Interior Designing platform,Unclassified,1
+Industry,Online Jewellery etailer,Unclassified,1
+Industry,Online Jewelry Store,Unclassified,1
+Industry,Online Job skills Showcase,Unclassified,1
+Industry,Online Kitchen Furniture,Unclassified,1
+Industry,Online Learning Platform,Unclassified,1
+Industry,Online Lending Marketplace,Unclassified,1
+Industry,Online Lingerie Marketplace,Unclassified,1
+Industry,Online Lingerie platform,Unclassified,1
+Industry,Online Loans Marketplace,Unclassified,1
+Industry,Online Marketplace,Online Marketplace,1
+Industry,Online Marketplace,Unclassified,1
+Industry,Online Marketplace for Industrial Goods,Unclassified,1
+Industry,Online Meat Ordering platform,Unclassified,1
+Industry,Online Media Publication,Unclassified,1
+Industry,Online Medical Diagnostic,Unclassified,1
+Industry,Online Movie Review Platform,Unclassified,1
+Industry,Online News Media,Unclassified,1
+Industry,Online Office Rental,Unclassified,1
+Industry,Online P2P lending marketplace,Unclassified,1
+Industry,Online Pharmacy,Unclassified,1
+Industry,Online Pharmacy & Drug DB,Unclassified,1
+Industry,Online Policy Aggregator,Unclassified,1
+Industry,Online Printing Services,Unclassified,1
+Industry,Online Product Comparison,Unclassified,1
+Industry,Online Products Discovery Platform,Unclassified,1
+Industry,Online Purchase rewards app,Unclassified,1
+Industry,Online RTI application services,Unclassified,1
+Industry,Online Real Estate Marketplace,Unclassified,1
+Industry,Online Renting platform,Unclassified,1
+Industry,Online Reputation Management Platform,Unclassified,1
+Industry,Online School for Analytics learning,Unclassified,1
+Industry,Online Security Platform,Unclassified,1
+Industry,Online Shopping Assistant Mobile app,Unclassified,1
+Industry,Online Student & Campus Social Networking platform,Unclassified,1
+Industry,Online Table Reservation,Unclassified,1
+Industry,Online Tailoring Services,Unclassified,1
+Industry,Online Taxi Rental Platform,Unclassified,1
+Industry,Online Travel Marketplace,Unclassified,1
+Industry,Online Travel Planning,Unclassified,1
+Industry,Online Vehicle Spare Parts etailer,Unclassified,1
+Industry,Online Wedding Marketplace,Unclassified,1
+Industry,Online and TV Shopping Marketplace,Unclassified,1
+Industry,Online comparison engine,Unclassified,1
+Industry,Online content platform for women,Unclassified,1
+Industry,Online education marketplace,Unclassified,1
+Industry,Online home d\\xc3\\xa9cor marketplace,Unclassified,1
+Industry,Online marketplace for Chef Meals,Unclassified,1
+Industry,Online marketplace for Photographers,Unclassified,1
+Industry,Online printing marketplace,Unclassified,1
+Industry,Online user engagement platform,Unclassified,1
+Industry,Order Fulfillment SAAS platform,Unclassified,1
+Industry,Organic Food ecommerce,Unclassified,1
+Industry,Organic Food etailer,Unclassified,1
+Industry,P2P Payments platform,Unclassified,1
+Industry,P2P Pre-owned goods marketplace,Unclassified,1
+Industry,Parents & Kids Online platform,Unclassified,1
+Industry,Parents focused Web Content,Unclassified,1
+Industry,Payment Services platform,Unclassified,1
+Industry,Payment Solutions platform,Unclassified,1
+Industry,Payments Solution Provider,Unclassified,1
+Industry,Payments Solution platform,Unclassified,1
+Industry,Peer to Peer Lending platform,Unclassified,1
+Industry,Peer-to-Peer Money Transfer & Recharge App,Unclassified,1
+Industry,Performance Optimization Platform for athletes,Unclassified,1
+Industry,Performance based Wholesale Marketplace,Unclassified,1
+Industry,Personal Diagnostic Mobile App,Unclassified,1
+Industry,Personalized Stock Intelligence Platform,Unclassified,1
+Industry,Personalized Styling platform,Unclassified,1
+Industry,Personalized Wish List creator app,Unclassified,1
+Industry,Photographer Online search & booking platform,Unclassified,1
+Industry,Physical Storage warehouses,Unclassified,1
+Industry,Picture based Social App,Unclassified,1
+Industry,Picture creation & Social mobile app,Unclassified,1
+Industry,Pre-owned games Marketplace,Unclassified,1
+Industry,Premium Apparel shopping portal,Unclassified,1
+Industry,Premium Beverages,Unclassified,1
+Industry,Premium dining Lounges & restaurants,Unclassified,1
+Industry,Prepaid Bill manager App,Unclassified,1
+Industry,Prepaid Mobile Bill Manager App,Unclassified,1
+Industry,Preventive Healthcare Services,Unclassified,1
+Industry,Preventive healthcare services,Unclassified,1
+Industry,Price Comparison,Unclassified,1
+Industry,Private Cloud Networks SAAS platform,Unclassified,1
+Industry,Private Coaching Centers,Unclassified,1
+Industry,Private Jet Bookings Marketplace,Unclassified,1
+Industry,Private Jet/ Helicopter Marketplace,Unclassified,1
+Industry,Private Label Apparel sales,Unclassified,1
+Industry,Private Label lingerie Ecommerce,Unclassified,1
+Industry,Private label Fashion eTailer,Unclassified,1
+Industry,Probiotic Technology Products Manufacturer,Unclassified,1
+Industry,Product Customization Platform,Unclassified,1
+Industry,Product Discovery & comparison App,Unclassified,1
+Industry,Product Learning platform,Unclassified,1
+Industry,Product discovery & recommendation platform,Unclassified,1
+Industry,Professional Custom creators Marketplace,Unclassified,1
+Industry,Professional Health Services Platform,Unclassified,1
+Industry,Professional Service Appointment booking service,Unclassified,1
+Industry,Professional Services Marketplace,Unclassified,1
+Industry,Professionals & Project Search Marketplace,Unclassified,1
+Industry,Psychometric Test Online Software,Unclassified,1
+Industry,Public Commute helper App,Unclassified,1
+Industry,Publishing,Publishing,1
+Industry,QSR & Online delivery portal,Unclassified,1
+Industry,QSR Chain,Unclassified,1
+Industry,QSR Restaurant Chain,Unclassified,1
+Industry,Quick Service Restaurant & Online Delivery,Unclassified,1
+Industry,Quick Service Restaurant Chain,Unclassified,1
+Industry,Rail Ticket Confirmation predictor,Unclassified,1
+Industry,Railways Information Mobile app,Unclassified,1
+Industry,Raw Meat & Ready to eat food etailer,Unclassified,1
+Industry,Ready to cook packaged Foods,Unclassified,1
+Industry,Real Estate Advisory,Unclassified,1
+Industry,Real Estate Broker Platform App,Unclassified,1
+Industry,Real Estate Broker network App,Unclassified,1
+Industry,Real Estate Insights platform,Unclassified,1
+Industry,Real Estate Intelligence Platform,Unclassified,1
+Industry,Real Estate Mobile CRM,Unclassified,1
+Industry,Real Estate Rating & Analysis,Unclassified,1
+Industry,Real Estate focused Tech platform,Unclassified,1
+Industry,Real-Time stock data platform,Unclassified,1
+Industry,Reality,Reality,1
+Industry,Renewable energy solutions,Unclassified,1
+Industry,Rental Accommodation Search platform,Unclassified,1
+Industry,Rental Accomodation finder,Unclassified,1
+Industry,Residential Rental management platform,Unclassified,1
+Industry,Restaurant Discount app,Unclassified,1
+Industry,Restaurant Management Platform,Unclassified,1
+Industry,Restaurant Ratings & Reviews platform,Unclassified,1
+Industry,Restaurant Reservation Platform,Unclassified,1
+Industry,Restaurant Reviews,Unclassified,1
+Industry,Restaurant customer engagement platform,Unclassified,1
+Industry,Restaurant reservation app,Unclassified,1
+Industry,Retail,Retail,1
+Industry,Reward points mobile app,Unclassified,1
+Industry,Ride Sharing platform,Unclassified,1
+Industry,Ridesharing Mobile app,Unclassified,1
+Industry,Robotic Program learning,Unclassified,1
+Industry,Rooftop Solar Plants,Unclassified,1
+Industry,SaaS product intelligence platform,Unclassified,1
+Industry,"SaaS, Ecommerce","SaaS, Ecommerce",1
+Industry,Saas,SaaS,1
+Industry,Sales & Productivity Software,Unclassified,1
+Industry,Science Learning App,Unclassified,1
+Industry,Scientific Horoscope Online Assistance platform,Unclassified,1
+Industry,Self Driven Car rental,Unclassified,1
+Industry,Self Driven Rental Car Platform,Unclassified,1
+Industry,Self-Storage Spaces,Unclassified,1
+Industry,Self-driven Car rental,Unclassified,1
+Industry,Self-driven vehicle rental,Unclassified,1
+Industry,Selfie Mobile App,Unclassified,1
+Industry,Service-On-Demand Mobile App,Unclassified,1
+Industry,Services Platform,Services Platform,1
+Industry,Skill Training & Placement Platform,Unclassified,1
+Industry,Skill Training Startup,Unclassified,1
+Industry,Small Business Financing (NBFC),Unclassified,1
+Industry,Smart Report Cards for Schools,Unclassified,1
+Industry,Smart Safety Wearable Devices,Unclassified,1
+Industry,Smartwatch Maker,Unclassified,1
+Industry,Social Fitness platform,Unclassified,1
+Industry,Social Learning Platform,Unclassified,1
+Industry,Social Network,Social Network,1
+Industry,Social Network for Artists,Unclassified,1
+Industry,Social platform for traders and investors,Unclassified,1
+Industry,Solar Power Solutions company,Unclassified,1
+Industry,Spa & Salon Management Software,Unclassified,1
+Industry,Spam Call block App,Unclassified,1
+Industry,Speech Recognition Solutions,Unclassified,1
+Industry,Splitting Bills Mobile App,Unclassified,1
+Industry,Sports Education Platform,Unclassified,1
+Industry,Sports Management & Physical Education Business,Unclassified,1
+Industry,Startup Analytics platform,Unclassified,1
+Industry,Startup Focused Online Publisher,Unclassified,1
+Industry,Startup Funding Marketplace,Unclassified,1
+Industry,Startup funding platform,Unclassified,1
+Industry,Stock Market Portal,Unclassified,1
+Industry,Storytelling,Storytelling,1
+Industry,Structural & Civil Engg Service Automation,Unclassified,1
+Industry,Study Material Marketplace,Unclassified,1
+Industry,Subscription based Online Grocery platform,Unclassified,1
+Industry,Supply Chain & Logistics Solutions,Unclassified,1
+Industry,Sustainable Agri-inputs Firm,Unclassified,1
+Industry,Talent Exchange & Talent Services Marketplace,Unclassified,1
+Industry,Talent platform for Fashion professionals,Unclassified,1
+Industry,Taxi Rental platform,Unclassified,1
+Industry,Teacher empowerment platform,Unclassified,1
+Industry,Tech Platform for property brokers,Unclassified,1
+Industry,Tech Recruitment platform,Unclassified,1
+Industry,Tech enabled AC bus service,Unclassified,1
+Industry,Tech enabled logistics platform,Unclassified,1
+Industry,Tech-enabled Rural Healthcare Services,Unclassified,1
+Industry,Tech-enabled learning,Unclassified,1
+Industry,Tele-Shopping / eCommerce,Unclassified,1
+Industry,Test Automation SAAS platform,Unclassified,1
+Industry,Transportation & Logistics Platform,Unclassified,1
+Industry,Travel Destination Discovery platform,Unclassified,1
+Industry,Travel Entertainment,Unclassified,1
+Industry,Travel Guide Mobile App,Unclassified,1
+Industry,Travel Search Engine,Unclassified,1
+Industry,Travel Tech,Travel Tech,1
+Industry,Travel Tech,Unclassified,1
+Industry,Travel community platform,Unclassified,1
+Industry,Travel information portal,Unclassified,1
+Industry,Truck Aggregator & Logistics service,Unclassified,1
+Industry,Trucking Logistic Operations,Unclassified,1
+Industry,Used Bikes Marketplace,Unclassified,1
+Industry,Used Gadgets Buy / Refurbishing,Unclassified,1
+Industry,Used Vehicle Marketplace,Unclassified,1
+Industry,Used Vehicles Marketplace,Unclassified,1
+Industry,Used two-wheeler Marketplace,Unclassified,1
+Industry,User Engagment & Analytics platform,Unclassified,1
+Industry,Video,Video,1
+Industry,Video Advertisement Platform,Unclassified,1
+Industry,Video Games,Video Games,1
+Industry,Video Intelligence Platform,Unclassified,1
+Industry,Video Streaming,Unclassified,1
+Industry,Viral Content web Platform,Unclassified,1
+Industry,Virtual Health consultation app,Unclassified,1
+Industry,Virtual Reality Headset creator,Unclassified,1
+Industry,Virtual Reality activity based learning platform,Unclassified,1
+Industry,Visual Blogging platform,Unclassified,1
+Industry,Voice Call incentivization mobile app,Unclassified,1
+Industry,Waste Management Solutions,Unclassified,1
+Industry,Wealth Management Platform,Unclassified,1
+Industry,Web Content Publishing,Unclassified,1
+Industry,Wedding Planning Platform,Unclassified,1
+Industry,Wedding Venues & Vendors Marketplace,Unclassified,1
+Industry,Weight Management Service,Unclassified,1
+Industry,WiFi \xe2\x80\x93 first Cloud communication platform,Unclassified,1
+Industry,Women Ethnic Wear\\xc2\\xa0 Online Marketplace,Unclassified,1
+Industry,Women Lifestyle Marketplace,Unclassified,1
+Industry,Womens Fashion Wear Portal,Unclassified,1
+Industry,Workforce Management Software,Unclassified,1
+Industry,\\xc2\\xa0Casual Dining restaurant Chain,Unclassified,1
+Industry,\\xc2\\xa0Contact Center Software Platform,Unclassified,1
+Industry,\\xc2\\xa0Fashion Info Aggregator App,Unclassified,1
+Industry,\\xc2\\xa0News Aggregator mobile app,Unclassified,1
+Industry,\\xc2\\xa0Online Grocery Delivery,Unclassified,1
+Industry,\\xc2\\xa0Online Jewellery Store,Unclassified,1
+Industry,\\xc2\\xa0Online Study Notes Marketplace,Unclassified,1
+Industry,\\xc2\\xa0Pre-School Chain,Unclassified,1
+Industry,\\xc2\\xa0Premium Loyalty Rewards Point Management,Unclassified,1
+Industry,\\xc2\\xa0Warranty Programs Service Administration,Unclassified,1
+Industry,affordable Personal Healthcare Products,Unclassified,1
+Industry,anonymous bulletin board app,Unclassified,1
+Industry,character merchandize sales platform,Unclassified,1
+Industry,conversational commerce mobile app,Unclassified,1
+Industry,coupons and cashback aggregator app,Unclassified,1
+Industry,eCommece,eCommerce,1
+Industry,eCommerce Product Search Engine,Unclassified,1
+Industry,eCommerce platform,Unclassified,1
+Industry,eCommerce returns etailer,Unclassified,1
+Industry,eLearning platform,Unclassified,1
+Industry,ecommerce related software product platform,Unclassified,1
+Industry,engineering services company,Unclassified,1
+Industry,extra curricular activities marketplace app,Unclassified,1
+Industry,fund raising platform for startups,Unclassified,1
+Industry,global community for travellers,Unclassified,1
+Industry,healthcare,Healthcare,1
+Industry,hotel booking app,Unclassified,1
+Industry,hyperlocal delivery platform,Unclassified,1
+Industry,hyperlocal online Services platform,Unclassified,1
+Industry,mobile payment software platform,Unclassified,1
+Industry,mobile social network,Unclassified,1
+Industry,mobile-only tasks marketplace,Unclassified,1
+Industry,multi-sport program for preschoolers,Unclassified,1
+Industry,on-Demand Washing & Dry-Cleaning,Unclassified,1
+Industry,on-demand delivery service,Unclassified,1
+Industry,on-demand healthcare marketplace,Unclassified,1
+Industry,on-demand home beauty and wellness portal,Unclassified,1
+Industry,online meal-booking platform for train travelers,Unclassified,1
+Industry,online recipe sharing platform,Unclassified,1
+Industry,online tiffin service aggregator,Unclassified,1
+Industry,pre-owned Luxury online apparel seller,Unclassified,1
+Industry,pre-used apparel shopping mobile app,Unclassified,1
+Industry,pre-used luxury item Marketplace,Unclassified,1
+Industry,proximity marketing & Mobile Advertising platform,Unclassified,1
+Industry,residential rental management platform,Unclassified,1
+Industry,solar products and services marketplace,Unclassified,1
+Industry,us ticketing and fleet management platform,Unclassified,1
+Industry,usiness expense management,Unclassified,1
+Industry,"virtual reality, 3d simulation and stereoscopic products",Unclassified,1
+Industry,visual search and discovery platform,Unclassified,1
+Investment_Type,Private Equity,Private Equity,1356
+Investment_Type,Seed Funding,Seed Funding,1355
+Investment_Type,Seed/ Angel Funding,Seed / Angel Funding,60
+Investment_Type,Seed / Angel Funding,Seed / Angel Funding,47
+Investment_Type,Seed\\nFunding,Seed Funding,30
+Investment_Type,Debt Funding,Debt Funding,25
+Investment_Type,Series A,Series A,24
+Investment_Type,Seed/Angel Funding,Seed / Angel Funding,23
+Investment_Type,Series B,Series B,20
+Investment_Type,Series C,Series C,14
+Investment_Type,Series D,Series D,12
+Investment_Type,Angel / Seed Funding,Seed / Angel Funding,8
+Investment_Type,Seed Round,Seed Funding,7
+Investment_Type,Pre-Series A,Pre-Series A,4
+Investment_Type,Private Equity Round,Private Equity,4
+Investment_Type,Seed,Seed Funding,4
+Investment_Type,,Unknown,3
+Investment_Type,Seed / Angle Funding,Seed / Angel Funding,3
+Investment_Type,Corporate Round,Corporate Round,2
+Investment_Type,Equity,Equity,2
+Investment_Type,Series E,Series E,2
+Investment_Type,Series F,Series F,2
+Investment_Type,Venture Round,Venture Round,2
+Investment_Type,pre-Series A,Pre-Series A,2
+Investment_Type,Angel,Angel Funding,1
+Investment_Type,Angel Funding,Angel Funding,1
+Investment_Type,Angel Round,Angel Funding,1
+Investment_Type,Bridge Round,Bridge Round,1
+Investment_Type,Crowd Funding,Crowd Funding,1
+Investment_Type,Crowd funding,Crowd Funding,1
+Investment_Type,Debt,Debt Funding,1
+Investment_Type,Debt and Preference capital,Debt and Preference capital,1
+Investment_Type,Debt-Funding,Debt Funding,1
+Investment_Type,Equity Based Funding,Equity Based Funding,1
+Investment_Type,Funding Round,Funding Round,1
+Investment_Type,Inhouse Funding,Inhouse Funding,1
+Investment_Type,Maiden Round,Maiden Round,1
+Investment_Type,Mezzanine,Mezzanine,1
+Investment_Type,Pre Series A,Pre-Series A,1
+Investment_Type,Pre-series A,Pre-Series A,1
+Investment_Type,Private,Private,1
+Investment_Type,Private Funding,Private Funding,1
+Investment_Type,PrivateEquity,Private Equity,1
+Investment_Type,Private\\nEquity,Private Equity,1
+Investment_Type,Seed Funding Round,Seed Funding,1
+Investment_Type,Seed funding,Seed Funding,1
+Investment_Type,Series B (Extension),Series B,1
+Investment_Type,Series G,Series G,1
+Investment_Type,Series H,Series H,1
+Investment_Type,Series J,Series J,1
+Investment_Type,Single Venture,Single Venture,1
+Investment_Type,Structured Debt,Debt Funding,1
+Investment_Type,Term Loan,Debt Funding,1
+Investment_Type,Venture,Venture,1
+Investment_Type,Venture - Series Unknown,Venture - Series Unknown,1
+Investment_Type,nan,Unknown,1
+Investment_Type,pre-series A,Pre-Series A,1

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "0deef7731d518e134044",
+  "position": {
+    "x": 1069,
+    "y": 138,
+    "z": 24000,
+    "height": 40,
+    "width": 40,
+    "tabOrder": 24000
+  },
+  "visual": {
+    "visualType": "image",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "imageUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0OCcgaGVpZ2h0PSc0OCcgdmlld0JveD0nMCAwIDQ4IDQ4Jz48Y2lyY2xlIGN4PScyNCcgY3k9JzI0JyByPScyMycgZmlsbD0nIzFENEVEOCcvPjxjaXJjbGUgY3g9JzI0JyBjeT0nMjQnIHI9JzIyJyBmaWxsPSdub25lJyBzdHJva2U9JyMzQjgyRjYnIHN0cm9rZS13aWR0aD0nMScvPjxjaXJjbGUgY3g9JzE5JyBjeT0nMTknIHI9JzQuNScgZmlsbD0nI2ZmZicvPjxwYXRoIGQ9J00xMSAzNGMwLTUgNC04IDgtOHM4IDMgOCA4eicgZmlsbD0nI2ZmZicvPjxjaXJjbGUgY3g9JzMxJyBjeT0nMjAnIHI9JzMuNScgZmlsbD0nI2ZmZicgb3BhY2l0eT0nMC44Jy8+PHBhdGggZD0nTTI5IDI3YzUtMSA4IDIgOCA3aC04eicgZmlsbD0nI2ZmZicgb3BhY2l0eT0nMC44Jy8+PC9zdmc+'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "''Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "InsertVisualButton"
+}

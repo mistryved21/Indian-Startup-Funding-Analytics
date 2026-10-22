@@ -1,0 +1,10 @@
+relationship efad7691-09cb-4281-9315-75f19a45aa18
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'startup_funding_cleaned (2)'.Funding_Date
+	toColumn: LocalDateTable_34eca69d-0e5b-4870-bb0c-c0372495046a.Date
+
+relationship 65091925-297d-448e-9746-23ff8c969377
+	joinOnDateBehavior: datePartOnly
+	fromColumn: startup_funding_cleaned.Funding_Date
+	toColumn: LocalDateTable_8420901c-ece8-400a-95ff-af25ef0f8000.Date
+

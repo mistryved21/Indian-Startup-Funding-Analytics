@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBI_QueryOrder = ["startup_funding_cleaned","startup_funding_cleaned (2)"]
+
+ref table 'startup_funding_cleaned (2)'
+ref table DateTableTemplate_b821d56b-896f-4c42-88c0-1d406543565b
+ref table LocalDateTable_34eca69d-0e5b-4870-bb0c-c0372495046a
+ref table _Measures
+ref table startup_funding_cleaned
+ref table LocalDateTable_8420901c-ece8-400a-95ff-af25ef0f8000
+
+ref cultureInfo en-US
+

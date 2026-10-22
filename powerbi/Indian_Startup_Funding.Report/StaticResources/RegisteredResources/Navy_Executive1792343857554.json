@@ -1,0 +1,66 @@
+{
+  "name": "Navy Executive",
+  "dataColors": [
+    "#3B82F6",
+    "#22D3EE",
+    "#8B5CF6",
+    "#60A5FA",
+    "#67E8F9",
+    "#A78BFA",
+    "#2563EB",
+    "#0EA5E9"
+  ],
+  "background": "#06152B",
+  "foreground": "#F8FAFC",
+  "foregroundNeutralSecondary": "#CBD5E1",
+  "backgroundLight": "#12233F",
+  "backgroundNeutral": "#244568",
+  "tableAccent": "#3B82F6",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "fontSize": 11,
+            "bold": true,
+            "alignment": "left",
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#12233F"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#244568"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    }
+  }
+}

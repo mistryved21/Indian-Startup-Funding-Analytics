@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Indian_Startup_Funding"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bd59bf85-681a-40e7-b0f4-08031b2a2a97"
+  }
+}

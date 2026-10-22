@@ -1,0 +1,355 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "2680bdda7e673ea7d69e",
+  "position": {
+    "x": 24,
+    "y": 264,
+    "z": 13000,
+    "height": 440,
+    "width": 1232,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Funding_Date"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Funding_Date",
+              "nativeQueryRef": "Funding_Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Startup_Name"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Startup_Name",
+              "nativeQueryRef": "Startup_Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Industry"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Industry",
+              "nativeQueryRef": "Industry"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "City"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).City",
+              "nativeQueryRef": "City"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Funding_Stage"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Funding_Stage",
+              "nativeQueryRef": "Funding_Stage"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Investment_Type"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Investment_Type",
+              "nativeQueryRef": "Investment_Type"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Disclosed Funding (M)"
+                }
+              },
+              "queryRef": "_Measures.Disclosed Funding (M)",
+              "nativeQueryRef": "Disclosed Funding (M)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Amount_Status"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Amount_Status",
+              "nativeQueryRef": "Amount_Status"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Amount Tier"
+                }
+              },
+              "queryRef": "_Measures.Amount Tier",
+              "nativeQueryRef": "Amount Tier"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "startup_funding_cleaned (2)"
+                    }
+                  },
+                  "Property": "Investors"
+                }
+              },
+              "queryRef": "startup_funding_cleaned (2).Investors",
+              "nativeQueryRef": "Investors"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Disclosed Funding (M)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Funding Records  |  click a header to sort  |  use the slicers to filter  |  click a slicer's eraser to reset'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "''Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "51cfc0cf0c9a22d88426",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Funding_Date"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "3c6a10c5b2c2a2bc4dbd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Startup_Name"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "6d2aa8c410cfbc3476fe",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Industry"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c7c8748b71280e278192",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "City"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "4b2137f0b2e042f83638",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Funding_Stage"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "475f0b98b656a8b8fc8c",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Investment_Type"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "763c83bae8d2b079ad67",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Disclosed Funding (M)"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "abaf9318efaa5142ef51",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Amount_Status"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "19c551c1db32771289db",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "_Measures"
+              }
+            },
+            "Property": "Amount Tier"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "a113d4dfb6ae55c867ad",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "startup_funding_cleaned (2)"
+              }
+            },
+            "Property": "Investors"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+/// Dedicated measures table for the Indian Startup Funding dashboard.
+table _Measures
+	lineageTag: 57ed829d-0b14-446d-ae3b-5b98295eb09a
+
+	measure 'Total Disclosed Funding' = CALCULATE(SUM('startup_funding_cleaned (2)'[Amount_USD]), 'startup_funding_cleaned (2)'[Is_Amount_Disclosed] = 1)
+		formatString: $#,0
+		lineageTag: 1f4220aa-b824-4b12-bf6e-3ba27c5f3aef
+
+	measure 'Funding Records' = COUNT('startup_funding_cleaned (2)'[Record_ID])
+		formatString: #,0
+		lineageTag: fb3a4ab8-3449-4332-83fc-7224eb305973
+
+	measure 'Unique Startups' = DISTINCTCOUNT('startup_funding_cleaned (2)'[Startup_Key])
+		formatString: #,0
+		lineageTag: 096a5548-24b1-4307-8690-1de5f3a39a41
+
+	measure 'Disclosed Records' = CALCULATE(COUNTROWS('startup_funding_cleaned (2)'), 'startup_funding_cleaned (2)'[Is_Amount_Disclosed] = 1)
+		formatString: #,0
+		lineageTag: 1223b52a-7d71-4447-940a-431ea5c731ae
+
+	measure 'Average Disclosed Funding' = DIVIDE([Total Disclosed Funding], [Disclosed Records])
+		formatString: $#,0
+		lineageTag: 7b2c3571-390e-4185-a867-0b2f170d6fd8
+
+	measure 'Funding Amount Disclosure %' = DIVIDE([Disclosed Records], [Funding Records])
+		formatString: 0.0%
+		lineageTag: a925d139-c157-422e-860d-4f3f2c49a83d
+
+	measure 'Total Investors Listed' = SUM('startup_funding_cleaned (2)'[Investor_Count])
+		formatString: #,0
+		lineageTag: fa4828a4-8bde-41b3-abaf-999926f02df4
+
+	measure 'Top Classified Industry' = VAR t = TOPN(1, FILTER(VALUES('startup_funding_cleaned (2)'[Industry]), 'startup_funding_cleaned (2)'[Industry] <> "Unclassified"), [Total Disclosed Funding], DESC) RETURN MAXX(t, 'startup_funding_cleaned (2)'[Industry])
+		lineageTag: aef5a6eb-6eb0-4989-9e83-2c2a5a91809a
+
+	measure 'Top Classified Industry Share' = VAR ind = [Top Classified Industry] RETURN DIVIDE(CALCULATE([Total Disclosed Funding], FILTER(ALLSELECTED('startup_funding_cleaned (2)'[Industry]), 'startup_funding_cleaned (2)'[Industry] = ind)), [Total Disclosed Funding])
+		formatString: 0.0%
+		lineageTag: 1b88db2c-31d7-451b-a6d1-b07354c3eaf2
+
+	measure 'Peak Year' = VAR t = TOPN(1, VALUES('startup_funding_cleaned (2)'[Year]), [Total Disclosed Funding], DESC) RETURN MAXX(t, 'startup_funding_cleaned (2)'[Year])
+		formatString: 0
+		lineageTag: fb13f6b9-fde5-4fdf-acca-1ab224b87f55
+
+	measure 'Peak Year Funding' = VAR y = [Peak Year] RETURN CALCULATE([Total Disclosed Funding], FILTER(ALLSELECTED('startup_funding_cleaned (2)'[Year]), 'startup_funding_cleaned (2)'[Year] = y))
+		formatString: $#,0
+		lineageTag: 41550fb9-f640-498b-b99d-03d7060920bd
+
+	measure 'Unclassified Share' = DIVIDE(CALCULATE([Total Disclosed Funding], KEEPFILTERS('startup_funding_cleaned (2)'[Industry] = "Unclassified")), [Total Disclosed Funding])
+		formatString: 0.0%
+		lineageTag: dabee1e9-9bd9-46b5-a024-266df4e1a717
+
+	measure 'Insight 1' = "Disclosed funding totals " & FORMAT([Total Disclosed Funding] / 1000000000, "$#,##0.0") & "B across " & FORMAT([Disclosed Records], "#,##0") & " deals with a stated amount."
+		lineageTag: 7c736da6-3bfa-477f-ae21-e5af1569fab0
+
+	measure 'Insight 2' = "Largest classified industry: " & [Top Classified Industry] & ", with " & FORMAT([Top Classified Industry Share], "0.0%") & " of disclosed funding."
+		lineageTag: d83c44dc-dfa1-4876-b098-e9109ec57e40
+
+	measure 'Insight 3' = "Peak funding year: " & [Peak Year] & " at " & FORMAT([Peak Year Funding] / 1000000000, "$#,##0.0") & "B disclosed."
+		lineageTag: b9758b15-6ff4-44ee-9bfa-b4024151e87a
+
+	measure 'Insight 4' = "Amounts are stated for " & FORMAT([Funding Amount Disclosure %], "0%") & " of records; undisclosed are excluded, not zero."
+		lineageTag: d4071b97-8da3-4041-9f42-eeccc7dff38c
+
+	measure 'Leading City Group' = VAR t = TOPN(1, FILTER(VALUES('startup_funding_cleaned (2)'[City_Group]), NOT 'startup_funding_cleaned (2)'[City_Group] IN {"Unknown", "Multiple locations", "Region/country only"}), [Total Disclosed Funding], DESC) RETURN MAXX(t, 'startup_funding_cleaned (2)'[City_Group])
+		lineageTag: c33e9a94-314e-403b-b49f-3cbcead2191d
+
+	measure 'City Groups' = CALCULATE(DISTINCTCOUNT('startup_funding_cleaned (2)'[City_Group]), KEEPFILTERS(NOT 'startup_funding_cleaned (2)'[City_Group] IN {"Unknown", "Multiple locations", "Region/country only"}))
+		formatString: #,0
+		lineageTag: 62395d54-da5a-413f-b95b-48a0394897fb
+
+	measure 'Disclosure Rate Label' = FORMAT([Funding Amount Disclosure %], "0.0%")
+		lineageTag: 0b97d02e-d83d-4577-a673-985f47490556
+
+	measure 'Insight 5' = FORMAT([Unclassified Share], "0%") & " of disclosed funding sits in unclassified industries."
+		lineageTag: 7e8ef8ea-7a83-45c0-a856-ca502a68384a
+
+	measure 'Industry Count' = DISTINCTCOUNT('startup_funding_cleaned (2)'[Industry])
+		formatString: #,0
+		lineageTag: f1953715-fc67-4a49-988e-27f06004e23e
+
+	measure 'Records With Stage' = CALCULATE([Funding Records], KEEPFILTERS('startup_funding_cleaned (2)'[Funding_Stage] <> "Not specified"))
+		formatString: #,0
+		lineageTag: c61392f8-3517-41f6-9702-323610d035ab
+
+	measure 'Disclosed Funding Cities Only' = CALCULATE([Total Disclosed Funding], KEEPFILTERS(NOT 'startup_funding_cleaned (2)'[City] IN {"Unknown", "Multiple locations", "Region/country only"}))
+		formatString: $#,0
+		lineageTag: 25baba93-6267-4bb8-999d-91ad98c32dc0
+
+	measure 'Amount Tier' = VAR a = MAX('startup_funding_cleaned (2)'[Amount_USD]) RETURN IF(ISBLANK(a), "Undisclosed", IF(a >= 100000000, "$100M+", IF(a >= 10000000, "$10M-$100M", IF(a >= 1000000, "$1M-$10M", "Under $1M"))))
+		lineageTag: c82eefd9-dd28-4e30-9899-b13fcb7ab733
+
+	measure 'Disclosed Funding (M)' = DIVIDE([Total Disclosed Funding], 1000000)
+		formatString: $#,0.0"M"
+		lineageTag: 8b82e845-0b5b-4eea-8106-8fcbeec506cf
+
+	measure 'Avg Disclosed Funding (M)' = DIVIDE([Average Disclosed Funding], 1000000)
+		formatString: $#,0.0"M"
+		lineageTag: d1dfa274-d0f5-4e01-8b7e-134b132eade5
+
+	column Measures
+		lineageTag: 9aaee1c7-433e-433a-bc1b-92147cc2c131
+		isNameInferred
+		sourceColumn: [Measures]
+
+	partition _Measures = calculated
+		mode: import
+		source = ROW("Measures", 1)
+

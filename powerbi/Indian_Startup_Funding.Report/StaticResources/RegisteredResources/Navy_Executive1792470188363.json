@@ -1,0 +1,128 @@
+{
+  "name": "Navy Executive",
+  "dataColors": [
+    "#3B82F6",
+    "#22D3EE",
+    "#8B5CF6",
+    "#60A5FA",
+    "#67E8F9",
+    "#A78BFA",
+    "#2563EB",
+    "#0EA5E9"
+  ],
+  "background": "#06152B",
+  "foreground": "#F8FAFC",
+  "foregroundNeutralSecondary": "#CBD5E1",
+  "backgroundLight": "#12233F",
+  "backgroundNeutral": "#244568",
+  "tableAccent": "#3B82F6",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#12233F"
+              }
+            },
+            "show": true,
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#244568"
+              }
+            },
+            "radius": 6,
+            "show": true
+          }
+        ],
+        "title": [
+          {
+            "alignment": "left",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 11,
+            "show": true
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "pageNavigator": {
+      "*": {
+        "fill": [
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#0B2342"
+              }
+            },
+            "show": true
+          },
+          {
+            "$id": "selected",
+            "fillColor": {
+              "solid": {
+                "color": "#3B82F6"
+              }
+            },
+            "show": true
+          }
+        ],
+        "text": [
+          {
+            "$id": "default",
+            "fontColor": {
+              "solid": {
+                "color": "#CBD5E1"
+              }
+            },
+            "fontSize": 10,
+            "horizontalAlignment": "center"
+          },
+          {
+            "$id": "selected",
+            "bold": true,
+            "fontColor": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#CBD5E1"
+              }
+            },
+            "show": true,
+            "showRestatement": false,
+            "textSize": 9
+          }
+        ]
+      }
+    }
+  }
+}

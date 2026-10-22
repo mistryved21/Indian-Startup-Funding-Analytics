@@ -1,0 +1,274 @@
+table 'startup_funding_cleaned (2)'
+	lineageTag: d7acefde-80c6-4318-8cb5-1847ce263802
+
+	column Record_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: e29ef0da-22cc-4dd7-80d5-21ddf7d3d774
+		summarizeBy: count
+		sourceColumn: Record_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Funding_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 02b137ed-b159-49be-90a4-8b45dd4c728b
+		summarizeBy: none
+		sourceColumn: Funding_Date
+
+		variation Variation
+			isDefault
+			relationship: efad7691-09cb-4281-9315-75f19a45aa18
+			defaultHierarchy: LocalDateTable_34eca69d-0e5b-4870-bb0c-c0372495046a.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Date_Quality
+		dataType: string
+		lineageTag: 8b4c4e9b-5117-4302-a783-0d09e4b23c74
+		summarizeBy: none
+		sourceColumn: Date_Quality
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: e72f6d79-6868-477b-a919-53e838b7e13a
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 184ca455-179f-4f71-a20a-b7d02f9aeeed
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year_Quarter
+		dataType: string
+		lineageTag: 4830aff1-0630-4a6d-aad5-376665eaa5d3
+		summarizeBy: none
+		sourceColumn: Year_Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month_Number
+		dataType: int64
+		formatString: 0
+		lineageTag: f8ff0d08-966c-42c1-b54e-9a7e6dc4fd88
+		summarizeBy: sum
+		sourceColumn: Month_Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month_Name
+		dataType: string
+		lineageTag: a4de2578-9af3-449c-bfa0-459c6865867d
+		summarizeBy: none
+		sourceColumn: Month_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Startup_Name
+		dataType: string
+		lineageTag: 770c448b-554d-4622-a49c-037c0317875a
+		summarizeBy: none
+		sourceColumn: Startup_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Startup_Name_Original
+		dataType: string
+		lineageTag: c034444e-0afa-4aa6-92fe-4af0e1093121
+		summarizeBy: none
+		sourceColumn: Startup_Name_Original
+
+		annotation SummarizationSetBy = Automatic
+
+	column Startup_Key
+		dataType: string
+		lineageTag: c05b5894-51a2-4db6-b179-c411855aaadd
+		summarizeBy: none
+		sourceColumn: Startup_Key
+
+		annotation SummarizationSetBy = Automatic
+
+	column Industry
+		dataType: string
+		lineageTag: 6d52ec21-3fb4-4995-a2fc-681b9721bbc4
+		summarizeBy: none
+		sourceColumn: Industry
+
+		annotation SummarizationSetBy = Automatic
+
+	column Industry_Status
+		dataType: string
+		lineageTag: 38351c16-668d-4b43-aec6-8e0f70b16f0c
+		summarizeBy: none
+		sourceColumn: Industry_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Industry_Original
+		dataType: string
+		lineageTag: f8c40c58-9312-494b-8283-a0679fb3fd3a
+		summarizeBy: none
+		sourceColumn: Industry_Original
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sub_Vertical
+		dataType: string
+		lineageTag: 9206faac-21c5-4aee-ac56-5bfd55223184
+		summarizeBy: none
+		sourceColumn: Sub_Vertical
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sub_Vertical_Source
+		dataType: string
+		lineageTag: 2f20e43c-11c3-4cca-afbe-e7cf214642d9
+		summarizeBy: none
+		sourceColumn: Sub_Vertical_Source
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: ecd30a34-50fc-4c3d-98bd-369d9a0a5979
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column City_Group
+		dataType: string
+		lineageTag: 50fc3dc7-9c05-438e-b1fa-23080d2727bb
+		summarizeBy: none
+		sourceColumn: City_Group
+
+		annotation SummarizationSetBy = Automatic
+
+	column Is_Outside_India
+		dataType: int64
+		formatString: 0
+		lineageTag: f25d5564-511c-4de6-ae1a-44687e3915d7
+		summarizeBy: sum
+		sourceColumn: Is_Outside_India
+
+		annotation SummarizationSetBy = Automatic
+
+	column Investors
+		dataType: string
+		lineageTag: a91fe735-cba0-4094-8674-29212e01de64
+		summarizeBy: none
+		sourceColumn: Investors
+
+		annotation SummarizationSetBy = Automatic
+
+	column Investor_Count
+		dataType: int64
+		formatString: 0
+		lineageTag: dc39112f-6f59-4dd2-962c-db5cd35b5033
+		summarizeBy: sum
+		sourceColumn: Investor_Count
+
+		annotation SummarizationSetBy = Automatic
+
+	column Investment_Type
+		dataType: string
+		lineageTag: fc652208-468c-4b97-a944-5540d96eace0
+		summarizeBy: none
+		sourceColumn: Investment_Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Investment_Type_Original
+		dataType: string
+		lineageTag: e2f868f7-db7a-47a4-a82f-59dd74590a97
+		summarizeBy: none
+		sourceColumn: Investment_Type_Original
+
+		annotation SummarizationSetBy = Automatic
+
+	column Funding_Stage
+		dataType: string
+		lineageTag: a6dbe826-ca0d-4bfa-b569-c1b921b2ba09
+		summarizeBy: none
+		sourceColumn: Funding_Stage
+
+		annotation SummarizationSetBy = Automatic
+
+	column Amount_USD
+		dataType: double
+		lineageTag: b693736b-61a4-4e70-b3b1-c99d45d96153
+		summarizeBy: sum
+		sourceColumn: Amount_USD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Amount_Status
+		dataType: string
+		lineageTag: 5b6bba55-1c90-42fb-a1d8-2a51a2590944
+		summarizeBy: none
+		sourceColumn: Amount_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Is_Amount_Disclosed
+		dataType: int64
+		formatString: 0
+		lineageTag: 653bfa9c-4311-4d3c-a8ef-a3766dbd5529
+		summarizeBy: sum
+		sourceColumn: Is_Amount_Disclosed
+
+		annotation SummarizationSetBy = Automatic
+
+	column Amount_Original
+		dataType: string
+		lineageTag: f3f13a61-d565-400b-bd13-158d676a4df0
+		summarizeBy: none
+		sourceColumn: Amount_Original
+
+		annotation SummarizationSetBy = Automatic
+
+	column Is_Extreme_Amount
+		dataType: int64
+		formatString: 0
+		lineageTag: ada4ed11-d8ae-471c-ab9f-da930cd88b5c
+		summarizeBy: sum
+		sourceColumn: Is_Extreme_Amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column Remarks
+		dataType: string
+		lineageTag: 89068b3d-5ed5-4f85-b8b8-49acb4f8be55
+		summarizeBy: none
+		sourceColumn: Remarks
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'startup_funding_cleaned (2)' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Kenish\Desktop\Indian_Startup_Funding_Analytics\data\startup_funding_cleaned.csv"),[Delimiter=",", Columns=30, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Record_ID", Int64.Type}, {"Funding_Date", type date}, {"Date_Quality", type text}, {"Year", Int64.Type}, {"Quarter", type text}, {"Year_Quarter", type text}, {"Month_Number", Int64.Type}, {"Month_Name", type text}, {"Startup_Name", type text}, {"Startup_Name_Original", type text}, {"Startup_Key", type text}, {"Industry", type text}, {"Industry_Status", type text}, {"Industry_Original", type text}, {"Sub_Vertical", type text}, {"Sub_Vertical_Source", type text}, {"City", type text}, {"City_Group", type text}, {"Is_Outside_India", Int64.Type}, {"Investors", type text}, {"Investor_Count", Int64.Type}, {"Investment_Type", type text}, {"Investment_Type_Original", type text}, {"Funding_Stage", type text}, {"Amount_USD", type number}, {"Amount_Status", type text}, {"Is_Amount_Disclosed", Int64.Type}, {"Amount_Original", type text}, {"Is_Extreme_Amount", Int64.Type}, {"Remarks", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
